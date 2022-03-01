@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+}
+
+.quiz-container{
+    background-color: #ffffff;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    max-width: 100%;
+    overflow: hidden ;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+button{
+    background-color: #9b59b6;
+    display: block;
+    width: 100%;
+    padding: 1.2rem;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8e44ad;
+}
+
+h2{
+    margin: 0;
+}
+
+ul li{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
